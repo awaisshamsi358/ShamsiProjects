@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: var(--body-color);
+}
+:root{
+    --heading-font:"Poppins";
+    --secondary-font:"Elms Sans";
+}
+:root{
+  --body-color:#2F1847;
+  --paragraph-color:#DFDCE3;
+  --heading-color: #FAF7FD;
+  --button-color:#CF37D4;
+  --grid-color:#422275;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/FontsPR/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/FontsPR/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Elms Sans";
+  src: url("assets/FontsPR/Elms_Sans/static/ElmsSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Elms Sans";
+  src: url("assets/FontsPR/Elms_Sans/static/ElmsSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Elms Sans";
+  src: url("assets/FontsPR/Elms_Sans/static/ElmsSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
